@@ -1,0 +1,38 @@
+header{
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 1rem 1rem;
+}
+
+ul{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+sup{
+    padding: .2rem 1rem;
+    background-color: yellow;
+    color: black;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-left: .5rem;
+}
+
+.new {
+    position: relative;
+}
+
+.drop-down{
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    flex-direction: column;
+    background-color: black;
+    gap: 1rem;
+    
+}
